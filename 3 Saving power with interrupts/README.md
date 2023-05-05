@@ -76,4 +76,23 @@ Then load up Energy Trace and perform the similar capture of Power with the LED 
 
 
 # Screenshots and Answers to Questions
-**Replace this section with your screenshots of Energy Trace and provide some reasoning as to Questions 1 and 2 in the Power consumption of the Interrupts Section.**
+Polling:
+Jumper in
+![pic1](https://user-images.githubusercontent.com/122996591/236491464-6cd087f7-e0f4-4826-9add-b905fbe97124.png)
+
+Jumper Out
+![pic2](https://user-images.githubusercontent.com/122996591/236491584-a90d22ad-41fc-48ee-bf7b-63bb6c2156c0.png)
+
+Interrupts: 
+Jumper in
+![pic3](https://user-images.githubusercontent.com/122996591/236491661-4eeb5b42-0feb-4f62-93ed-f4c036ae065b.png)
+
+Jumper out
+![pic4](https://user-images.githubusercontent.com/122996591/236491709-4747246d-76ed-4987-8bdf-3763eeb6ab9b.png)
+
+Answer to questions:
+1.) The baseline in polling is higher than the interrupts because there were more lines of code which takes longer to go through.
+
+2.) Power still increases when the button is pressed since the board is still getting powered via USB even with the jumper out. 
+
+
